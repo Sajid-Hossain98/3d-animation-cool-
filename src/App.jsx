@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./App.scss";
-import me from "./assets/me.png";
+import me2 from "./assets/me-2.png";
 
 function App() {
   const cardRef = useRef(null);
@@ -47,7 +47,7 @@ function App() {
           <div className="card" ref={cardRef}>
             <div className="myself">
               <div className="circle"></div>
-              <img src={me} alt="me" ref={meRef} />
+              <img src={me2} alt="me" ref={meRef} />
             </div>
             <div className="info">
               <h1 ref={nameRef}>B M Sajid Hossain</h1>
